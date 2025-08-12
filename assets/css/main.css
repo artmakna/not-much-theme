@@ -86,6 +86,8 @@ code:not(.highlight *) {
   color: var(--secondary);
   font-weight: 600;
   user-select: all;
+  padding-left: .3em;
+  padding-right: .3em;
 }
 
 .highlight > div {
