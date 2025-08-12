@@ -147,6 +147,10 @@ kbd {
   color: var(--secondary);
 }
 
+.post article a:not(.footnote-backref)::after {
+  content: " ↗"
+}
+
 .post .draft-label {
   font-weight: bold;
   color: var(--primary);
