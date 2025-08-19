@@ -28,8 +28,12 @@ nav a, a {
   text-decoration: none !important;
 }
 
-nav a:hover, a:hover {
+nav a:hover, a:hover, .list-post-title a:hover {
   text-decoration: underline !important;
+}
+
+.list-post-title a {
+  text-decoration: none !important;
 }
 
 a {
