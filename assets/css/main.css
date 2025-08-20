@@ -292,6 +292,35 @@ li > input[type=checkbox] {
   }
 }
 
+/* Viewport ≥ 768px: container = 720px */
+@media (min-width: 768px) {
+  .toc {
+    display: block;
+    right: calc(50% - 360px - 20px); /* 720px / 2 */
+  }
+}
+
+/* Viewport ≥ 992px: container = 960px */
+@media (min-width: 992px) {
+  .toc {
+    right: calc(50% - 480px - 20px); /* 960px / 2 */
+  }
+}
+
+/* Viewport ≥ 1200px: container = 1140px */
+@media (min-width: 1200px) {
+  .toc {
+    right: calc(50% - 570px - 20px); /* 1140px / 2 */
+  }
+}
+
+/* Viewport ≥ 1400px: container = 1320px */
+@media (min-width: 1400px) {
+  .toc {
+    right: calc(50% - 660px - 20px); /* 1320px / 2 */
+  }
+}
+
 #TableOfContents > ul {
   list-style-type: '//  ';
 }
