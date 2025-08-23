@@ -158,6 +158,10 @@ kbd {
   content: " ↗"
 }
 
+.post article a:has(img)::after {
+  content: none !important;
+}
+
 .post .draft-label {
   font-weight: bold;
   color: var(--primary);
