@@ -37,6 +37,11 @@ nav a:hover, a:hover, .list-post-title a:hover {
   text-decoration: underline !important;
 }
 
+.list-post-title h2 {
+  margin-top: .25em;
+  margin-bottom: .1em;
+}
+
 .list-post-title a {
   text-decoration: none !important;
 }
@@ -124,7 +129,7 @@ kbd {
 .post article h4,
 .post article h5,
 .post article h6 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: 'Lora', serif !important;
   margin: 24px 0 10px 0;
   font-weight: normal;
@@ -147,8 +152,8 @@ kbd {
 .post header .breadcrumb,
 .post header .breadcrumb-item,
 .post header .small {
-  font-family: 'Lora', serif !important;
-  font-size: 1em
+  font-family: 'Roboto Serif', serif !important;
+  font-size: .90em
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
