@@ -16,6 +16,16 @@ body, main {
   color: var(--font-color) !important;
 }
 
+.post header h1 {
+  height: 100%;
+  font-family: 'Lora', serif !important;
+  font-weight: normal;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: .95em;
+  color: var(--font-color) !important;
+}
+
 ::selection {
   background: var(--secondary);
   color: var(--selection-color);
