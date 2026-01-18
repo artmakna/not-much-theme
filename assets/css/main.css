@@ -20,6 +20,10 @@ body, main {
   font-family: 'Lora', serif !important;
 }
 
+.post header.mb-4 {
+	margin-bottom: 3rem !important;
+}
+
 ::selection {
   background: var(--secondary);
   color: var(--selection-color);
