@@ -17,13 +17,7 @@ body, main {
 }
 
 .post header h1 {
-  height: 100%;
   font-family: 'Lora', serif !important;
-  font-weight: normal;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: .95em;
-  color: var(--font-color) !important;
 }
 
 ::selection {
