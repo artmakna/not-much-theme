@@ -114,11 +114,6 @@ kbd {
   font-weight: bold;
 }
 
-/* All headings use Lora font */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', serif !important;
-}
-
 .post article h1,
 .post article h2,
 .post article h3,
@@ -126,38 +121,9 @@ h1, h2, h3, h4, h5, h6 {
 .post article h5,
 .post article h6 {
   font-size: 1.2rem;
+  font-family: 'Lora', serif !important;
   margin: 24px 0 10px 0;
   font-weight: bold;
-}
-
-.post article h1::before {
-  content: "# ";
-  color: var(--secondary);
-}
-
-.post article h2::before {
-  content: "## ";
-  color: var(--secondary);
-}
-
-.post article h3::before {
-  content: "### ";
-  color: var(--secondary);
-}
-
-.post article h4::before {
-  content: "#### ";
-  color: var(--secondary);
-}
-
-.post article h5::before {
-  content: "###### ";
-  color: var(--secondary);
-}
-
-.post article h6::before {
-  content: "###### ";
-  color: var(--secondary);
 }
 
 .post article a:not(.footnote-backref)::after, footer a::after {
