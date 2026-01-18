@@ -9,6 +9,7 @@ body {
 body, main {
   height: 100%;
   font-family: 'Roboto Serif', serif !important;
+  font-weight: 300;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: .95em;
