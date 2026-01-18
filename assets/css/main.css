@@ -123,7 +123,7 @@ kbd {
   font-size: 1.2rem;
   font-family: 'Lora', serif !important;
   margin: 24px 0 10px 0;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .post article a:not(.footnote-backref)::after, footer a::after {
@@ -144,10 +144,11 @@ kbd {
 .post header .breadcrumb-item,
 .post header .small {
   font-family: 'Lora', serif !important;
+  font-size: 1em
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-  color: #6c757d !important;
+  color: #111A19 !important;
 }
 
 .tags a {
