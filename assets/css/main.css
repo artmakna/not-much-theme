@@ -173,6 +173,13 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary);
 }
 
+/* Post metadata (dates, reading time) use Lora font */
+.post header .breadcrumb,
+.post header .breadcrumb-item,
+.post header .small {
+  font-family: 'Lora', serif !important;
+}
+
 .breadcrumb-item+.breadcrumb-item::before {
   color: #6c757d !important;
 }
