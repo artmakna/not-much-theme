@@ -1,4 +1,5 @@
 :root {
+    --bs-navbar-color: #111A19;
     --bg-color: #FFFFFF;
     --bg-variant: #FFFFFF;
     --primary: #111A19;
@@ -9,6 +10,7 @@
 }
 
 .dark {
+    --bs-navbar-color: #FFFFFF;
     --bg-color: #111A19;
     --bg-variant: #111A19;
     --primary: #FFFFFF;
