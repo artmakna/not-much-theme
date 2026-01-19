@@ -127,6 +127,16 @@ kbd {
   font-weight: bold;
 }
 
+figure h4 {
+  margin-bottom: 1em;
+  font-family: 'Roboto Serif', serif !important;
+  font-size: .8em !important;
+  font-weight: lighter !important;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
 .post article h1,
 .post article h2,
 .post article h3,
@@ -198,16 +208,6 @@ figure img {
   max-height: 500px;
   max-width: 100%;
   margin: 0 auto 0 auto;
-}
-
-figure h4 {
-  margin-bottom: 1em;
-  font-family: 'Roboto Serif', serif !important;
-  font-size: .8em !important;
-  font-weight: lighter !important;
-  position: relative;
-  overflow: hidden;
-  opacity: 0.9;
 }
 
 figure h4::before {
