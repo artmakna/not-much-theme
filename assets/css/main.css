@@ -157,7 +157,7 @@ kbd {
 .post header .breadcrumb-item,
 .post header .small {
   font-family: 'Roboto Serif', serif !important;
-  font-size: .90em
+  font-size: .9em
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -202,7 +202,8 @@ figure img {
 
 figure h4 {
   margin-bottom: 1em;
-  font-size: 0.85rem !important;
+  font-family: 'Roboto Serif', serif !important;
+  font-size: .8em !important;
   font-weight: lighter !important;
   position: relative;
   overflow: hidden;
