@@ -16,6 +16,12 @@ body, main {
   color: var(--font-color) !important;
 }
 
+.container {
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 4px dotted rgb(79, 185, 227);
+}
+
 .post header h1 {
   font-family: 'Lora', serif !important;
 }
