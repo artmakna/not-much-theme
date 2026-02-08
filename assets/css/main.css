@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
 
 body {
@@ -7,12 +8,29 @@ body {
 
 body, main {
   height: 100%;
-  font-family: 'Literata', serif !important;
+  font-family: 'Roboto Serif', serif !important;
+  font-weight: 300;
   font-optical-sizing: auto;
   font-style: normal;
   font-size: .95em;
-  font-weight: normal;
   color: var(--font-color) !important;
+}
+
+.display-3 {
+    font-family: 'Lora', serif !important;
+}
+
+figcaption {
+	text-align: center;
+	font-size: .8em;
+}
+
+.post header h1 {
+  font-family: 'Lora', serif !important;
+}
+
+.post header.mb-4 {
+	margin-bottom: 3rem !important;
 }
 
 ::selection {
@@ -30,6 +48,11 @@ nav a, a {
 
 nav a:hover, a:hover, .list-post-title a:hover {
   text-decoration: underline !important;
+}
+
+h2.h5.list-post-title {
+  margin-top: .25em;
+  margin-bottom: .15em;
 }
 
 .list-post-title a {
@@ -113,45 +136,29 @@ kbd {
   font-weight: bold;
 }
 
+figure h4 {
+  margin-bottom: 1em;
+  font-size: .8em !important;
+  font-weight: lighter !important;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
 .post article h1,
 .post article h2,
 .post article h3,
 .post article h4,
 .post article h5,
 .post article h6 {
-  font-size: 1.2rem;
-  margin: 24px 0 10px 0;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'Lora', serif !important;
+  margin: 2.8rem 0 .7rem 0;
+  font-weight: normal;
 }
 
-.post article h1::before {
-  content: "# ";
-  color: var(--secondary);
-}
-
-.post article h2::before {
-  content: "## ";
-  color: var(--secondary);
-}
-
-.post article h3::before {
-  content: "### ";
-  color: var(--secondary);
-}
-
-.post article h4::before {
-  content: "#### ";
-  color: var(--secondary);
-}
-
-.post article h5::before {
-  content: "###### ";
-  color: var(--secondary);
-}
-
-.post article h6::before {
-  content: "###### ";
-  color: var(--secondary);
+.post article p {
+	text-align: justify;
 }
 
 .post article a:not(.footnote-backref)::after, footer a::after {
@@ -167,8 +174,16 @@ kbd {
   color: var(--primary);
 }
 
+/* Post metadata (dates, reading time) use Lora font */
+.post header .breadcrumb,
+.post header .breadcrumb-item,
+.post header .small {
+  font-family: 'Roboto Serif', serif !important;
+  font-size: .9em
+}
+
 .breadcrumb-item+.breadcrumb-item::before {
-  color: #6c757d !important;
+  color: #111A19 !important;
 }
 
 .tags a {
@@ -204,55 +219,11 @@ figure {
 figure img {
   max-height: 500px;
   max-width: 100%;
-  margin: 0 auto 0 auto;
-}
-
-figure h4 {
-  margin-bottom: 1em;
-  font-size: 0.85rem !important;
-  font-weight: lighter !important;
-  position: relative;
-  overflow: hidden;
-  opacity: 0.9;
+  margin: 0 auto 8px auto;
 }
 
 figure h4::before {
   content: '' !important;
-}
-
-/* Cool blockquote style from catalinred */
-blockquote {
-  padding-left: 3rem !important;
-  position: relative;
-  overflow: hidden;
-
-  &::before,
-  &::after{
-    position: absolute;
-    color: #777;
-  }
-
-  &::before {
-    content: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='%23777777'><path d='M9.983 3v7.391C9.983 16.095 6.252 19.961 1 21l-.995-2.151C2.437 17.932 4 15.211 4 13H0V3h9.983zM24 3v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151C16.437 17.932 18 15.211 18 13h-3.983V3H24z'/></svg>");
-    left: 15px;
-  }
-
-  &::after {
-    content: "";
-    left: 20px;
-    top: 25px;
-    width: 1px;
-    height: 100%;
-    background-color: currentColor;
-  }
-
-  p {
-    margin: 0;
-  }
-  
-  p + p {
-    margin-top: 1rem;
-  }
 }
 
 .twitter-tweet, .instagram-media {
