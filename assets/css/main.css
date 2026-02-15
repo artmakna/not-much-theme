@@ -281,8 +281,14 @@ li>input[type=checkbox] {
 }
 
 @media (max-width: 575px) {
-    .navbar-expand-lg {
+    /* other pages */
+    .mt-5 .navbar-expand-lg {
         padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    }
+
+    /* home page */
+    .mt-5 .col-md-12 .navbar-expand-lg {
+        padding-left: 0 !important;
     }
 }
 
