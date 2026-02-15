@@ -34,7 +34,7 @@
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-    color: #111A19 !important;
+    color: var(--font-color) !important;
 }
 
 html {
